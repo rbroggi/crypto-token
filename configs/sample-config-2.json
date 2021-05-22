@@ -1,0 +1,36 @@
+{
+  "versioner": {
+    "tokenizationVersion": "b",
+    "detokenizationVersions": "abcd"
+  },
+  "versions": [
+    {
+      "vid": "a",
+      "encryptionKey": "2B7E151628AED2A6ABF7158809CF4F3C",
+      "hmacKey": "3B7E151628AED2A6ABF7158809CF4F3C"
+    },
+    {
+      "vid": "b",
+      "encryptionKey": "2C7E151628AED2A6ABF7158809CF4F3B",
+      "hmacKey": "3C7E151628AED2A6ABF7158809CF4F3B"
+    },
+    {
+      "vid": "c",
+      "encryptionKey": "2D7E151628AED2A6ABF7158809CF4F31",
+      "hmacKey": "3D7E151628AED2A6ABF7158809CF4F31"
+    },
+    {
+      "vid": "d",
+      "encryptionKey": "2E7E151628AED2A6ABF7158809CF4E3B",
+      "hmacKey": "3E7E151628AED2A6ABF7158809CF4E3B"
+    }
+  ],
+  "charSets": {
+    "14": "ZYXWVUTSRQPONM",
+    "15": "ZYXWVUTSRQPONML",
+    "16": "ZYXWVUTSRQPONMLK",
+    "18": "ZYXWVUTSRQPONMLKJI",
+    "22": "ZYXWVUTSRQPONMLKJIHGFE",
+    "32": "ZYXWVUTSRQPONMLKJIHGFEDCBA012345"
+  }
+}

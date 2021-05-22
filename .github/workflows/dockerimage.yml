@@ -1,0 +1,16 @@
+name: Docker Image CI
+
+on: [push]
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Building docker image runs unit tests and benchmarks
+      run: docker build -t crypto-token .
+    - name: Run CLI command example
+      run: docker run -i crypto-token -i 4444333322221111,4444333322221112,3444333322221111 -c ./configs/sample-config-1.json
